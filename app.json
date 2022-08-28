@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Quarterly-Lessons",
+    "slug": "Quarterly-Lessons",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "ke.co.lessons",
+      "versionCode": 2,
+      "permissions" : [],
+      "config": {
+        "googleMobileAdsAppId":"ca-app-pub-4266400232196448~1186402976"
+      }
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
